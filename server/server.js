@@ -25,5 +25,5 @@ app.use("/api/users", userRoutes);
 // Error handler middleware
 app.use(errorHandler);
 
-const PORT = process.env.PORT || https://book-review-platform-vsyh.vercel.app/;
+const PORT = process.env.NEXT_PUBLIC_API_BASE_URL;;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
