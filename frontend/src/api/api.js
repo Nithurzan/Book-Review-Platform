@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:5000/api'; // swap this out during deployment
+const API_BASE_URL = 'https://book-review-platform-vsyh.vercel.app/api'; // swap this out during deployment
 
 export const addBook = async (formData) => {
   try {
