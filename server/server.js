@@ -25,5 +25,5 @@ app.use("/api/users", userRoutes);
 // Error handler middleware
 app.use(errorHandler);
 
-const PORT = process.env.NEXT_PUBLIC_API_BASE_URL;
+const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
